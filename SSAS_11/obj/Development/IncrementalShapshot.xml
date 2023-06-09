@@ -1,0 +1,96 @@
+﻿<DeploymentSnapshot xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:ddl2="http://schemas.microsoft.com/analysisservices/2003/engine/2" xmlns:ddl2_2="http://schemas.microsoft.com/analysisservices/2003/engine/2/2" xmlns:ddl100_100="http://schemas.microsoft.com/analysisservices/2008/engine/100/100" xmlns:ddl200="http://schemas.microsoft.com/analysisservices/2010/engine/200" xmlns:ddl200_200="http://schemas.microsoft.com/analysisservices/2010/engine/200/200" xmlns:ddl300="http://schemas.microsoft.com/analysisservices/2011/engine/300" xmlns:ddl300_300="http://schemas.microsoft.com/analysisservices/2011/engine/300/300" xmlns:ddl400="http://schemas.microsoft.com/analysisservices/2012/engine/400" xmlns:ddl400_400="http://schemas.microsoft.com/analysisservices/2012/engine/400/400" xmlns:ddl500="http://schemas.microsoft.com/analysisservices/2013/engine/500" xmlns:ddl500_500="http://schemas.microsoft.com/analysisservices/2013/engine/500/500" xmlns:dwd="http://schemas.microsoft.com/DataWarehouse/Designer/1.0">
+  <Target>
+    <Database>SSAS_11</Database>
+    <Server>BIGBOSS\MSSQLSERVER01</Server>
+    <ConnectionString>Data Source=BIGBOSS\MSSQLSERVER01;Timeout=0</ConnectionString>
+  </Target>
+  <Options>
+    <TransactionalDeployment>false</TransactionalDeployment>
+    <PartitionDeployment>DeployPartitions</PartitionDeployment>
+    <RoleDeployment>DeployRolesRetainMembers</RoleDeployment>
+    <ProcessingOption>Default</ProcessingOption>
+    <OutputScript></OutputScript>
+    <ImpactAnalysisFile></ImpactAnalysisFile>
+    <ConfigurationSettingsDeployment>Deploy</ConfigurationSettingsDeployment>
+    <OptimizationSettingsDeployment>Deploy</OptimizationSettingsDeployment>
+    <WriteBackTableCreation>UseExisting</WriteBackTableCreation>
+  </Options>
+  <Snapshot>
+    <ObjectSnapshots>
+      <ObjectSnapshot>
+        <Type>Microsoft.AnalysisServices.RelationalDataSource</Type>
+        <TimeStamp>ypn/7cVK6uICo/EPeu/7i/GorVo=5/24/2023 8:12:39 AM5/23/2023 9:04:20 AM</TimeStamp>
+        <ID>
+          <String>SSIS</String>
+        </ID>
+      </ObjectSnapshot>
+      <ObjectSnapshot>
+        <Type>Microsoft.AnalysisServices.DataSourceView</Type>
+        <TimeStamp>k0ZgKdm9885eaDPS4/znNkzIACA=5/23/2023 9:06:51 AM5/23/2023 9:06:51 AM</TimeStamp>
+        <ID>
+          <String>SSIS</String>
+        </ID>
+      </ObjectSnapshot>
+      <ObjectSnapshot>
+        <Type>Microsoft.AnalysisServices.Dimension</Type>
+        <TimeStamp>khyLX0tCYBw3Hupef3KULQAfleM=5/23/2023 9:07:17 AM5/23/2023 9:07:01 AM</TimeStamp>
+        <ID>
+          <String>Host Dim</String>
+        </ID>
+      </ObjectSnapshot>
+      <ObjectSnapshot>
+        <Type>Microsoft.AnalysisServices.Dimension</Type>
+        <TimeStamp>jiL7oDEhNCEXfyg6VFW8MXmrY+8=5/23/2023 9:07:01 AM5/23/2023 9:07:01 AM</TimeStamp>
+        <ID>
+          <String>Room Dim</String>
+        </ID>
+      </ObjectSnapshot>
+      <ObjectSnapshot>
+        <Type>Microsoft.AnalysisServices.Dimension</Type>
+        <TimeStamp>pV7oKcGOhxGZmaZZ+pAZ7dA023M=5/23/2023 9:07:25 AM5/23/2023 9:07:01 AM</TimeStamp>
+        <ID>
+          <String>Status Dim</String>
+        </ID>
+      </ObjectSnapshot>
+      <ObjectSnapshot>
+        <Type>Microsoft.AnalysisServices.Dimension</Type>
+        <TimeStamp>YcqdXmsVXLwwklRLOs8ol7268AQ=5/23/2023 9:07:34 AM5/23/2023 9:07:01 AM</TimeStamp>
+        <ID>
+          <String>Location Dim</String>
+        </ID>
+      </ObjectSnapshot>
+      <ObjectSnapshot>
+        <Type>Microsoft.AnalysisServices.Dimension</Type>
+        <TimeStamp>Z1wbKh3jEGSE62k5RvcGtKW5Vbw=5/23/2023 9:07:39 AM5/23/2023 9:07:01 AM</TimeStamp>
+        <ID>
+          <String>Name Dim</String>
+        </ID>
+      </ObjectSnapshot>
+      <ObjectSnapshot>
+        <Type>Microsoft.AnalysisServices.Dimension</Type>
+        <TimeStamp>Hn26Wuqh4hM1SaUUUpQ434xjdqc=5/23/2023 9:08:19 AM5/23/2023 9:07:01 AM</TimeStamp>
+        <ID>
+          <String>Review Dim</String>
+        </ID>
+      </ObjectSnapshot>
+      <ObjectSnapshot>
+        <Type>Microsoft.AnalysisServices.Cube</Type>
+        <TimeStamp>++WCf/zpkm9kik0olnnSHo8K9VA=5/25/2023 6:11:02 PM5/23/2023 9:07:01 AMf8jF8dPiMITl1u+uSGKvciRs71w=5/23/2023 9:07:01 AM5/23/2023 9:07:01 AM</TimeStamp>
+        <ID>
+          <String>SSIS</String>
+        </ID>
+      </ObjectSnapshot>
+    </ObjectSnapshots>
+    <DatabaseSnapshot>
+      <Type>Microsoft.AnalysisServices.Database</Type>
+      <TimeStamp>aeSTABtiRjft9qMqKrhLiOZsmaE=5/29/2023 1:57:28 PM5/23/2023 9:03:59 AM</TimeStamp>
+      <ID>
+        <String>SSAS_11</String>
+      </ID>
+    </DatabaseSnapshot>
+    <Granularity>Coarse</Granularity>
+  </Snapshot>
+  <AssemblyLocations />
+  <ProcessingComplete>true</ProcessingComplete>
+  <LastDeployed>2023-05-29T06:58:18.2Z</LastDeployed>
+</DeploymentSnapshot>
